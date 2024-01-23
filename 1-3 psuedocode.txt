@@ -1,0 +1,15 @@
+Start
+
+    Declarations
+        Integer num1, num2, product
+
+    Output "Enter two numbers: "
+    Input num1
+    Store num1
+    Input num2
+    Store num2
+    product = num1*num2
+
+    Display "The values multiplied together are: "  product
+
+Stop
