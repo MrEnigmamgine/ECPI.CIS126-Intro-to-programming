@@ -1,5 +1,7 @@
-# Compiled files
-.compiled/*
+# Ignore files without an extension
+*
+!*/
+!*.*
 
 # Prerequisites
 *.d
