@@ -14,7 +14,7 @@ int main(){
     printf("Please enter a float value (Decimals): ");
     scanf("%f", &FloatValue);               // Ampersand (&) is the address operator. Store data at this address.
 
-    printf("The character you entered is: " &CharacterValue &" and float value you entered is: " &FloatValue);
+    printf("The character you entered is: %c, and float value you entered is: %f", CharacterValue,FloatValue);
 
     return 0;
 }

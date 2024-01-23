@@ -13,7 +13,7 @@ int main(){
 
     product = num1 * num2;
 
-    printf("The numbers multiplied together are %d", product);
+    printf("The numbers multiplied together are %d \n", product);
 
     return 0;
 }
