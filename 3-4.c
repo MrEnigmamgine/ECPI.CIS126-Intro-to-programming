@@ -3,7 +3,7 @@
 // 2024-02-10
 
 #include <stdio.h>
-#include <math.h>
+#include <math.h> // need to include the -lm flag for gcc to include the library.
 
 int main()
 {

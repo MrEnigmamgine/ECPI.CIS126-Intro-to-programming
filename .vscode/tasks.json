@@ -4,7 +4,7 @@
         {
             "label": "compile C",
             "type": "shell",
-            "command": "gcc ${file} -o ${fileBasenameNoExtension}",
+            "command": "gcc ${file} -lm -o ${fileBasenameNoExtension}",
             "presentation": {
                 "reveal": "always",
                 "panel": "new",
